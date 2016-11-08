@@ -86,26 +86,37 @@ article li {
   margin: 17px 0 17px 30px;
 }
 
-article > img {
+article > img,
+article > iframe {
   display: block;
   width: 1020px;
   margin: 80px auto;
 }
 
-article img + h2 {
+article img + h2,
+article iframe + h2 {
   margin-top: -1px;
 }
 
 article img + p,
 article img + blockquote,
-article img + ul {
+article img + ul,
+article iframe + p,
+article iframe + blockquote,
+article iframe + ul {
   margin-top: -3px;
 }
 
-article h3 + img {
+article h2 + img,
+article h2 + iframe {
+  margin-top: 82px;
+}
+
+article h3 + img,
+article h3 + iframe {
   margin-top: 81px;
 }
 
-article h2 + img {
-  margin-top: 82px;
+article > iframe {
+  height: 574px;
 }
