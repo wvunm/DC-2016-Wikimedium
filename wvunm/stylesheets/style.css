@@ -1,12 +1,14 @@
 /* stylesheets/style.css */
 @import 'reset.css';
 @import 'https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,400i,700,700i&amp;subset=cyrillic';
+@import 'social-likes_birman.css';
 
 @import 'layout.css';
 @import 'menubar.css';
+@import 'share.css';
 
-/*index*/
-@import 'index.css';
+/*posts:-}*/
+@import 'posts.css';
 
 /*post*/
 @import 'content.css';
