@@ -18,7 +18,8 @@ body.posts {
   background-color: #fafafa;
 }
 
-body.posts .menubar{
+body.posts .menubar,
+body.landing .menubar {
   position: fixed;
   top: 0;
   left: 0;

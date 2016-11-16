@@ -7,7 +7,10 @@
 @import 'menubar.css';
 @import 'share.css';
 
-/*posts:-}*/
+/*landing*/
+@import 'landing.css';
+
+/*posts >:-} */
 @import 'posts.css';
 
 /*post*/
