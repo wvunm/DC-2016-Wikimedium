@@ -19,18 +19,19 @@
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .galleryRail figure {
     width: 768px;
     min-width: 768px;
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  article > *:not(section) {
-    width: calc(100% - 40px);
+/*@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .galleryRail figure {
+    width: 100%;
+    min-width: 100%;
   }
-}
+}*/
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
   body {

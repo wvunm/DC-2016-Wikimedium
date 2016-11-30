@@ -1,6 +1,7 @@
-*{
+* {
   box-sizing: border-box;
 }
+
 
 a {
   text-decoration: none;
@@ -15,7 +16,7 @@ body {
 }
 
 body.posts {
-  background-color: #fafafa;
+  background-color: #FAFAFA;
 }
 
 body.posts .menubar,
@@ -26,6 +27,10 @@ body.landing .menubar {
   z-index: 1;
   width: 100%;
   min-width: 768px;
+}
+
+body.posts .menubar,
+body.landing .menubar div {
   background-color: white;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
 }

@@ -1,5 +1,5 @@
 article {
-  padding: 10px;
+  padding-bottom: 40px;
 }
 
 article a {
@@ -19,16 +19,9 @@ article h3 {
 }
 
 article h1 {
-    margin-top: 16px;
-    font-size: 40px;
-    line-height: 46px;
-}
-
-article h1 + p {
-  font-family: 'PT Sans Caption', sans-serif;
-  font-size: 22px;
-  line-height: 32px;
-  color: rgba(0, 0, 0, .4);
+  margin-top: 16px;
+  font-size: 40px;
+  line-height: 46px;
 }
 
 article h2 {
@@ -37,14 +30,22 @@ article h2 {
   line-height: 36px;
 }
 
-article h2 + p {
-  margin-top: 7px;
-}
-
 article h3 {
   margin-top: 36px;
   font-size: 28px;
-  line-height: 34px
+  line-height: 34px;
+}
+
+article h1 + p {
+  margin-top: 14px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, .4);
+}
+
+article h2 + p {
+  margin-top: 7px;
 }
 
 article h3 + p {
@@ -59,8 +60,9 @@ article li {
 }
 
 article blockquote {
-  position: relative;
   font-style: italic;
+  letter-spacing: 0.5px;
+  position: relative;
 }
 
 article blockquote::before {
@@ -71,7 +73,7 @@ article blockquote::before {
   left: -20px;
   width: 3px;
   height: 100%;
-  background-color: rgba(0, 0, 0, .8);
+  background-color: rgba(0,0,0,.8)
 }
 
 article p + p,
@@ -82,13 +84,14 @@ article blockquote + blockquote {
 }
 
 article ul {
-list-style-type: disc;
-  margin-left: 29px auto;
+  list-style-type: disc;
+  margin: 29px auto;
 }
 
 article li {
   margin: 17px 0 17px 30px;
 }
+
 
 article > img,
 article > iframe {
@@ -102,6 +105,11 @@ article iframe + h2 {
   margin-top: -1px;
 }
 
+article h2 + img,
+article h2 + iframe {
+  margin-top: 82px;
+}
+
 article img + p,
 article img + blockquote,
 article img + ul,
@@ -109,11 +117,6 @@ article iframe + p,
 article iframe + blockquote,
 article iframe + ul {
   margin-top: -3px;
-}
-
-article h2 + img,
-article h2 + iframe {
-  margin-top: 82px;
 }
 
 article h3 + img,
